@@ -1,8 +1,7 @@
 import React from "react";
 
-const date = new Date();
-
 function Copyright() {
+  const date = new Date();
   return <h6>Copyright {date.getFullYear()}</h6>;
 }
 

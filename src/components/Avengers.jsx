@@ -1,12 +1,12 @@
 import React from "react";
 
-const listStyle = {
-  backgroundColor: "yellow",
-  fontSize: "20px",
-  border: "1px solid black"
-};
-
 function Avengers() {
+  const listStyle = {
+    backgroundColor: "yellow",
+    fontSize: "20px",
+    border: "1px solid black"
+  };
+
   return (
     <ul style={listStyle}>
       <li>Avengers: Infinity War</li>
