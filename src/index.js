@@ -6,7 +6,9 @@ const date = new Date();
 
 ReactDOM.render(
   <div>
-    <h1>{name}'s favourite MCU Movies</h1>
+    <h1 className="titleColor" contentEditable="true" spellCheck="false">
+      {name}'s favourite MCU Movies
+    </h1>
     <ul>
       <li>Avengers: Infinity War</li>
       <li>Spiderman: Far From Home</li>
